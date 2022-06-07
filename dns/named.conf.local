@@ -1,0 +1,9 @@
+zone	"example.com" {
+	type master;
+	file "/etc/bind/fwd.example.com";
+};
+
+zone	"56.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/rev.example.com";
+};
